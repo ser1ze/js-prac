@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #ccc;
+  font-size: 12px;
+}
+#searchInput {
+  display: flex;
+  margin: 0 auto;
+  width: 500px;
+}
+#autocompleteList {
+  list-style-type: none;
+  width: 500px;
+  padding: 0;
+  margin: 0 auto;
+  border: 2px solid #e3e3e3;
+}
+
+#autocompleteList li {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  cursor: pointer;
+  border: 2px solid #000000;
+}
+
+#autocompleteList li:hover {
+  background: #65cdf9;
+}
+
+#repositoriesList {
+  padding-top: 40px;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+
+  width: 503 !important;
+  height: 101 Im !important;
+}
+
+#repositoriesList li {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  width: 503 !important;
+  height: 101 !important;
+  background: #e27beb;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#repositoriesList li li {
+  padding: 2px;
+  border: none;
+}
+
+#repositoriesList li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#repositoriesList li button:hover {
+  background-color: #d32f2f;
+}
